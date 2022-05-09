@@ -34,6 +34,7 @@ img {
 }
 
 .role{
+    display: block;
     background: #E8F9FD;
     padding: 5px;
     border-radius: 5px;
