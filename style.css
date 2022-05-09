@@ -13,7 +13,7 @@ html {
 body {
     font-family:  sans-serif;
     padding: 2rem;
-    background: linear-gradient(to right bottom, #dfa60c, #9d0191);
+    background: linear-gradient(to right bottom, #E8F9FD, #79DAE8);
     background-repeat: no-repeat;
     /* height: 100vh; */
     margin: 0 auto;
@@ -43,7 +43,7 @@ img {
 .all {
     width: 90%;
     max-width: 110rem;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
 }
 
@@ -56,6 +56,7 @@ nav {
 nav ul {
     list-style: none;
     width: 7rem;
+    display: flex;
 }
 
 nav ul li {
@@ -64,15 +65,16 @@ nav ul li {
     justify-content: center;
     align-items: center;
     padding: 1rem 0;
+    margin: 5%;
 }
 
-nav ul li:not(:last-child) {
-    border-bottom: 1px solid #eee;
-}
+/* nav ul li:not(:last-child) {
+    border-bottom: 1px solid #0AA1DD;
+} */
 
 nav li i {
     font-size: 1.6rem;
-    color: #4f524f;
+    color: #E8F9FD;
     padding-bottom: 5px;
 }
 
@@ -80,15 +82,15 @@ nav li a {
     font-size: 1.2rem;
     text-decoration: none;
     font-weight: 600;
-    color: #4f524f;
+    color: #0AA1DD;
 }
 
 nav li a:hover {
-    color: #9d0191;
+    color: #2155CD;
 }
 
 .active > * {
-    color: #9d0191;
+    color: #2155CD;
 }
 
 /* SECTION STYLES */
@@ -129,7 +131,7 @@ nav li a:hover {
 .profile-content p.text-effect {
     font-size: 1.6rem;
     font-weight: 600;
-    color: #9d0191;
+    color: #4f524f;
     padding-bottom: 3rem;
 }
 
@@ -153,7 +155,7 @@ span.effect {
 }
 
 .profile-icons a:hover {
-    color: #9d0191;
+    color: #2155CD;
 }
 
 .profile-cta {
@@ -176,7 +178,7 @@ span.effect {
 }
 
 .profile-cta a:hover {
-    color: #9d0191;
+    color: #2155CD;
 }
 
 /* CONTENT STYLES */
@@ -190,7 +192,7 @@ span.effect {
 
 .content {
     width: 100%;
-    background-color: #f5f4f2;
+    background-color: #E8F9FD;
     padding: 1.5rem;
     /* height: 75vh; */
     border: 1px solid transparent;
@@ -216,8 +218,11 @@ span.effect {
     display: block;
 }
 .aboutMe{
-    max-width: 70%;
+    max-width: 90%;
     margin: 0 auto;
+    text-align: left;
+    font-size: 1.5rem;
+    color: #4f524f !important;
 }
 
 .content::-webkit-scrollbar {
@@ -228,7 +233,7 @@ span.effect {
 }
 
 .content::-webkit-scrollbar-track {
-    background-color: #9d0191;
+    background-color: #2155CD;
     outline: 1px solid #eee;
 }
 
@@ -246,9 +251,10 @@ span.effect {
 /* ABOUT SECTION */
 /* ABOUT SECTION */
 .content-about {
-    background: url(./images/3.jpg) no-repeat center/cover;
+    /* background: url(./images/neonbg.jpg) no-repeat center/cover; */
     position: relative;
     z-index: -1;
+    background-color: #E8F9FD;
     
 }
 
@@ -266,14 +272,14 @@ span.effect {
 }
 
 /* HUE ANIMATION */
-@keyframes hue {
+/* @keyframes hue {
     0% {
         filter: hue-rotate(0);
     }
     100% {
         filter: hue-rotate(360deg);
     }
-}
+} */
 
 .content-header {
     padding: 1rem 0;
@@ -292,12 +298,12 @@ span.effect {
     z-index: 1;
 }
 
-.content-about .content-header h2 {
+/* .content-about .content-header h2 {
     color: #eee;
-}
+} */
 
 .content-header h2 span {
-    color: #9d0191;
+    color: #2155CD;
 }
 
 .content-details {
@@ -333,7 +339,7 @@ span.effect {
 }
 
 .content-about .content-details p span.name {
-    color: #ffb640;
+    color: #2155CD;
     font-size: 2.5rem;
     font-weight: 700;
 }
@@ -363,10 +369,10 @@ span.effect {
 .resume .year,
 .contact-details .title {
     font-size: 1.3rem;
-    background-color: #9d0191;
+    background-color: #0AA1DD;
     display: inline-block;
     color: #eee;
-    padding: 2px;
+    padding: 5px;
     border-radius: 3px;
 }
 
@@ -388,7 +394,7 @@ span.effect {
 .content-line {
     width: 100%;
     height: 1.5px;
-    background: linear-gradient(to right, #9d0191,#ffb640);
+    background: linear-gradient(to right, #79DAE8, #E8F9FD);
     margin-top: 2rem;
 }
 
@@ -433,7 +439,7 @@ span.effect {
 .contact-details {
     border: 1px solid #fff;
     background-color: #fff;
-    border-bottom: 1px solid #9d0191;
+    border-bottom: 1px solid #2155CD;
     border-radius: 5px;
     padding: 1rem;
     transition: all .3s;
@@ -452,7 +458,7 @@ span.effect {
     font-size: 1.4rem;
     font-weight: 600;
     text-decoration: none;
-    color: #9d0191;
+    color: #2155CD;
     padding: 1rem;
     margin-top: 1rem;
     border: 1px solid transparent;
@@ -462,13 +468,13 @@ span.effect {
 .portfolio-item a:hover,
 .blog-post a:hover {
     color: #363836;
-    border: 1px solid #9d0191;
+    border: 1px solid #2155CD;
     border-radius: 3px;
 }
 
 .portfolio-item:hover .portfolio-title,
 .blog-post:hover p.post-title {
-    background-color: rgba(170, 25, 134,.8);
+    background-color: rgba(39, 66, 155, 0.8);
     color: #fff;
     padding: 5px 0;
     border-radius: 3px;
@@ -533,7 +539,7 @@ span.effect {
     font-size: 1.6rem;
     padding: 8px;
     margin-top: 1rem;
-    border: 1px solid #9d0191;
+    border: 1px solid #2155CD;
     border-radius: 3px;
     cursor: pointer;
 }
@@ -544,12 +550,29 @@ span.effect {
     body{
         height: 100vh;
     }
+    .all {
+        width: 90%;
+        max-width: 110rem;
+        display: flex;
+        justify-content: center;
+    }
+    nav ul {
+        list-style: none;
+        width: 7rem;
+        display: block;
+    }
 .main-container {
     display: flex;
 }
 .profile {
     width: 30%;
     min-width: 20rem;   
+}
+.aboutMe{
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: #4f524f !important;
 }
 /* .content-about .content-details {
     display: flex;
