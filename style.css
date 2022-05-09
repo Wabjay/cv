@@ -168,7 +168,7 @@ span.effect {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    border-top: 1px solid rgba(0,0,0,.2);
+/*     border-top: 1px solid rgba(0,0,0,.2); */
     padding: 2rem;
 }
 
@@ -565,6 +565,9 @@ span.effect {
         width: 7rem;
         display: block;
     }
+    .profile-cta {
+    border-top: 1px solid rgba(0,0,0,.2);
+}
 .main-container {
     display: flex;
 }
@@ -576,8 +579,10 @@ span.effect {
     max-width: 90%;
     margin: 0 auto;
     font-size: 1.5rem;
+    text-align: center;
     color: #4f524f !important;
 }
+    
 /* .content-about .content-details {
     display: flex;
     width: 70%;
