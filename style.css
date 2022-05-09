@@ -34,8 +34,9 @@ img {
 }
 
 .role{
-    display: block;
-    font-size: 1.2rem;
+    background: #E8F9FD;
+    padding: 5px;
+    border-radius: 5px;
     font-weight: 600;
     color: #363836;
 }
